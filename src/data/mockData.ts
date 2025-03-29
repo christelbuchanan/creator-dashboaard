@@ -1,0 +1,198 @@
+export const mockUserData = {
+  id: '1',
+  name: 'Alex Johnson',
+  username: 'alexcodes',
+  avatar: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&q=80',
+  bio: 'Full-stack developer passionate about React, Node.js, and building interactive web applications. Streaming code sessions and tutorials weekly.',
+  followers: 12500,
+  following: 350,
+  joinedDate: 'January 2022',
+  socialLinks: {
+    twitter: 'https://twitter.com/alexcodes',
+    github: 'https://github.com/alexcodes',
+    youtube: 'https://youtube.com/alexcodes',
+  },
+  stats: {
+    totalViews: 1250000,
+    totalStreams: 87,
+    avgViewers: 450,
+  }
+}
+
+export const mockPastStreams = [
+  {
+    id: '1',
+    title: 'Building a Real-time Chat App with React and Firebase',
+    thumbnail: 'https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    date: '2023-10-15',
+    duration: '2h 15m',
+    views: 3200,
+    likes: 450,
+  },
+  {
+    id: '2',
+    title: 'Advanced State Management with Redux Toolkit',
+    thumbnail: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    date: '2023-10-08',
+    duration: '1h 45m',
+    views: 2800,
+    likes: 380,
+  },
+  {
+    id: '3',
+    title: 'Building a Portfolio Website with Next.js and Tailwind',
+    thumbnail: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    date: '2023-10-01',
+    duration: '2h 30m',
+    views: 3500,
+    likes: 520,
+  },
+  {
+    id: '4',
+    title: 'Creating Custom Hooks in React',
+    thumbnail: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    date: '2023-09-24',
+    duration: '1h 30m',
+    views: 2100,
+    likes: 310,
+  },
+]
+
+export const mockProjects = [
+  {
+    id: '1',
+    title: 'React Weather App',
+    description: 'A beautiful weather application built with React and OpenWeather API',
+    thumbnail: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    tags: ['React', 'API', 'Tailwind'],
+    stars: 245,
+    forks: 57,
+    isPublic: true,
+    createdAt: '2023-08-15',
+    price: null,
+    views: 12500,
+  },
+  {
+    id: '2',
+    title: 'E-commerce Template',
+    description: 'A complete e-commerce solution with shopping cart, payment integration, and admin dashboard',
+    thumbnail: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    stars: 189,
+    forks: 43,
+    isPublic: true,
+    createdAt: '2023-07-22',
+    price: 49.99,
+    views: 8900,
+  },
+  {
+    id: '3',
+    title: 'Portfolio Starter',
+    description: 'A customizable portfolio template for developers',
+    thumbnail: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    tags: ['Next.js', 'Tailwind', 'Framer Motion'],
+    stars: 312,
+    forks: 78,
+    isPublic: true,
+    createdAt: '2023-06-10',
+    price: 29.99,
+    views: 15200,
+  },
+  {
+    id: '4',
+    title: 'Task Management App',
+    description: 'A Trello-like task management application with drag and drop functionality',
+    thumbnail: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    tags: ['React', 'Redux', 'Firebase'],
+    stars: 178,
+    forks: 35,
+    isPublic: false,
+    createdAt: '2023-05-18',
+    price: null,
+    views: 6300,
+  },
+]
+
+export const mockUpcomingStreams = [
+  {
+    id: '1',
+    title: 'Building a Full-Stack App with T3 Stack',
+    description: 'Join me as we build a complete application using the T3 stack (Next.js, tRPC, Prisma, and TypeScript)',
+    scheduledFor: '2023-10-22T18:00:00Z',
+    duration: '2h 30m',
+    thumbnail: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    isPublic: true,
+  },
+  {
+    id: '2',
+    title: 'Mastering CSS Grid and Flexbox',
+    description: 'Deep dive into advanced CSS layout techniques with practical examples',
+    scheduledFor: '2023-10-29T19:00:00Z',
+    duration: '2h',
+    thumbnail: 'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    isPublic: true,
+  },
+]
+
+export const mockAnalyticsData = {
+  viewsOverTime: [
+    { date: '2023-09-01', views: 1200 },
+    { date: '2023-09-08', views: 1500 },
+    { date: '2023-09-15', views: 1800 },
+    { date: '2023-09-22', views: 2200 },
+    { date: '2023-09-29', views: 2500 },
+    { date: '2023-10-06', views: 2800 },
+    { date: '2023-10-13', views: 3200 },
+  ],
+  followerGrowth: [
+    { date: '2023-09-01', followers: 10200 },
+    { date: '2023-09-08', followers: 10500 },
+    { date: '2023-09-15', followers: 10900 },
+    { date: '2023-09-22', followers: 11300 },
+    { date: '2023-09-29', followers: 11700 },
+    { date: '2023-10-06', followers: 12100 },
+    { date: '2023-10-13', followers: 12500 },
+  ],
+  topPerformingContent: [
+    { title: 'Building a Real-time Chat App with React and Firebase', views: 3200 },
+    { title: 'Building a Portfolio Website with Next.js and Tailwind', views: 3500 },
+    { title: 'Advanced State Management with Redux Toolkit', views: 2800 },
+  ],
+  audienceDemographics: {
+    age: [
+      { group: '18-24', percentage: 35 },
+      { group: '25-34', percentage: 45 },
+      { group: '35-44', percentage: 15 },
+      { group: '45+', percentage: 5 },
+    ],
+    countries: [
+      { name: 'United States', percentage: 40 },
+      { name: 'India', percentage: 15 },
+      { name: 'United Kingdom', percentage: 10 },
+      { name: 'Germany', percentage: 8 },
+      { name: 'Canada', percentage: 7 },
+      { name: 'Other', percentage: 20 },
+    ],
+  },
+}
+
+export const mockEarningsData = {
+  totalEarnings: 12580.45,
+  thisMonth: 2340.80,
+  lastMonth: 1980.25,
+  earningsHistory: [
+    { month: 'May 2023', amount: 1450.20 },
+    { month: 'Jun 2023', amount: 1620.75 },
+    { month: 'Jul 2023', amount: 1780.30 },
+    { month: 'Aug 2023', amount: 1850.90 },
+    { month: 'Sep 2023', amount: 1980.25 },
+    { month: 'Oct 2023', amount: 2340.80 },
+  ],
+  revenueStreams: [
+    { source: 'Project Sales', amount: 8750.30, percentage: 69.5 },
+    { source: 'Subscriptions', amount: 2450.15, percentage: 19.5 },
+    { source: 'Tips/Donations', amount: 980.00, percentage: 7.8 },
+    { source: 'Sponsorships', amount: 400.00, percentage: 3.2 },
+  ],
+  pendingPayouts: 580.25,
+}
